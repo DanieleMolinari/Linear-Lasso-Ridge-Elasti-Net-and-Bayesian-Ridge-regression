@@ -23,7 +23,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from tensorflow import keras
 
-df = pd.read_csv('C:\\Users\\dmcmo\\OneDrive\\Desktop\\Python - Ridge Lasso Bayesian Elastic Net Regression\\House-Price-Prediction-with-ML-master\\House-Price-Prediction-with-ML-master\\House_Data.csv')
+df = pd.read_csv('House_Data.csv')
 df = df.drop('Id', axis=1)
 
 df.head(5)
